@@ -136,7 +136,7 @@ select {
   text-align: center;
   border: none;
   background-color: rgba(43, 43, 43, 0.945);
-color: violet;
+  color: violet;
 
   margin-left: auto;
   margin-right: auto;
@@ -151,7 +151,6 @@ color: violet;
 }
 select i {
   margin-right: 5rem;
-
 }
 
 .row1 {
@@ -177,7 +176,7 @@ select i {
   align-items: center;
   align-content: center;
   text-align: center;
-  
+
   margin: auto;
   width: 291px;
   height: max-content;
@@ -191,7 +190,7 @@ select i {
   cursor: pointer;
 }
 option {
-color: rgba(238, 130, 238, 0.705);
+  color: rgba(238, 130, 238, 0.705);
 
   text-align: center;
 }

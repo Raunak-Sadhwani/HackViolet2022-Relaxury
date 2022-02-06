@@ -1,6 +1,13 @@
 <template>
   <div class="main">
-    <locFilterComponent what="Drop By" />
+    <event-list v-for="event in shortedDropBy" :key="event.company" 
+      :name="event.company"
+      :details="event.details"
+      :date="'Opens-'+event.time"
+    />
+    <locFilterComponent what="Drop By" 
+    @locationChanged="locationChanged"
+    />
   </div>
 </template>
 
@@ -8,8 +15,6 @@
 export default {
   data() {
     return {
-      poll: 'LMAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO',
-
       dropby: [
         {
           company: 'chai wale',
@@ -30,13 +35,25 @@ export default {
           company: 'free massage wala',
           dropbytype: 'spa',
           detail: ' malamal massage ',
-          location: 'bangcock',
-          area: 'thai',
-          rating: '5.5',
+          area: 'lohegaon',
+          rating: 5.5,
         },
       ],
+
+      shortedDropBy: [],
     }
   },
+  methods: {
+    locationChanged(location) {
+    //   this.shortedDropBy = this.dropby.filter((dropby) => dropby.area === location);
+
+       this.shortedDropBy = this.dropby.filter(
+        (dropby) => dropby.eventtype === location
+      )
+      this.filteredEvent = this.filteredEventByType
+    },
+    },
+
 }
 </script>
 

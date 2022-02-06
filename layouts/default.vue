@@ -23,4 +23,7 @@ head:{
 </script>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
 </style>

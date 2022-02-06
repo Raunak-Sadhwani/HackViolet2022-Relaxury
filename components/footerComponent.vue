@@ -23,15 +23,11 @@
         <a href="#"><i class="fa fa-telegram"></i></a>
       </section>
       <section>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Drop By</a>
-        <a href="#">Events</a>
         <a href="#">Contact Us</a>
       </section>
     </div>
     <div class="copyright">
-      Copyright © 2022 Relauxry - All rights reserved
+      Copyright © 2022 Relauxry - All rights reserved (Created for HackViolet Hackathon)
     </div>
   </footer>
 </template>

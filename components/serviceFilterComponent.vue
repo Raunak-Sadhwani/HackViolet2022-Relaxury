@@ -2,9 +2,9 @@
   <section class="filter">
     <div class="row2">
       <select name="servicetype" @change="servicetypechanged">
-        <option value="">Select sevice</option>
+        <option value="">Select a service</option>
         <option value="cook">Cook</option>
-        <option value="homeservice">home service</option>
+        <option value="homeservice">House help</option>
         <option value="laundry">Laundry</option>
         <option value="spa">Spa</option>
       </select>
@@ -77,7 +77,7 @@ export default {
   align-items: center;
   align-content: center;
   text-align: center;
-  background-color: rgba(2, 247, 255, 0.781);
+  background-color: violet;
   margin: 1.5rem;
   margin-top: 3rem;
   width: 291px;
@@ -107,7 +107,8 @@ export default {
   opacity: 0.7;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
-  background-color: rgba(2, 247, 255, 0.781);
+  background-color: violet;
+
 }
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;

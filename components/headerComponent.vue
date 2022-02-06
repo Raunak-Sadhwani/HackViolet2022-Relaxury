@@ -7,8 +7,8 @@
           <ul>
             <li><nuxt-link to="/app">HOME</nuxt-link></li>
             <li><nuxt-link to="/app/services">SERVICES</nuxt-link></li>
-            <li><nuxt-link to="/app/dropby">DROP BY</nuxt-link></li>
             <li><nuxt-link to="/app/events">EVENTS</nuxt-link></li>
+            <li><nuxt-link to="/app/dropby">DROP BY</nuxt-link></li>
             <li><nuxt-link to="/about">ABOUT US</nuxt-link></li>
             <li><nuxt-link to="/register">REGISTER</nuxt-link></li>
           </ul>

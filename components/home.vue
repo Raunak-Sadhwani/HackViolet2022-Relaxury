@@ -2,7 +2,7 @@
   <section class="homePage">
     <div class="home">
       <div class="text-box">
-        <h1>Need Anything Let Us Know</h1>
+        <h1>Need Anything, Let Us Know</h1>
         <p>Scroll Down to know<br />more</p>
         <span>
           <a href="#cards"><i class="fa fa-angle-double-down fa-2x floating"/></a>
@@ -11,11 +11,10 @@
     </div>
 
     <div class="mid" id="cards">
-      <h1>Our motto is to help people anyway we can</h1>
+      <h1>Our motto is to help people by connecting them with quality businesses </h1>
       <p>
-        We offer various types of help, we also help lonely people to socialize
-        and making friends<br />
-        We also offer - services, Drop By, Events.
+        Our highlight features are:
+        <br />
       </p>
       <div class="row">
         <div class="col">
@@ -32,6 +31,21 @@
           <button class="butn" @click="serviceClicked">
             <a href="#headerC">Know More</a></button>
         </div>
+        
+        <div class="col">
+          <h3>Events</h3>
+          <br />
+          <img
+            src="https://img.icons8.com/ios-filled/100/000000/conference-foreground-selected.png"
+          />
+          <p>
+            <br /><br />
+            Public events in your locality ranging from a cricket match for the
+            evening to parties. <br /><br /><br />
+          </p>
+          <button class="butn">Know More</button>
+        </div>
+
         <div class="col">
           <h3>Drop By</h3>
           <br />
@@ -44,19 +58,6 @@
             <br /><br />
             Information about location in your locality like cafes, stores,
             stalls, spa. <br /><br /><br />
-          </p>
-          <button class="butn">Know More</button>
-        </div>
-        <div class="col">
-          <h3>Events</h3>
-          <br />
-          <img
-            src="https://img.icons8.com/ios-filled/100/000000/conference-foreground-selected.png"
-          />
-          <p>
-            <br /><br />
-            Public events in your locality ranging from a cricket match for the
-            evening to parties. <br /><br /><br />
           </p>
           <button class="butn">Know More</button>
         </div>
@@ -123,7 +124,7 @@ export default {
 }
 .mid p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
   padding: 10px;
 }
@@ -169,4 +170,5 @@ export default {
   background: violet;
   transition: 1s;
 }
+
 </style>

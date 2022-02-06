@@ -2,7 +2,7 @@
   <section class="rForm">
     <div class="container">
       <form id="contact" action="" method="post">
-        <h3>Registration Form</h3>
+       <center> <h3>Registration Form</h3> <br> <br></center>
         <fieldset>
           <input
             placeholder="Your name"

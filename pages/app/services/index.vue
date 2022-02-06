@@ -81,7 +81,7 @@ export default {
           company: 'Sauna spa',
           detail: 'Fully Steam, Massage, etc',
           area: 'lohegaon',
-          price: 11000,
+          price: 19000,
           rating: 5.0,
         },
         {
@@ -97,7 +97,7 @@ export default {
           company: 'Robert Browney',
           detail: 'Speciality in Italian Cuisine',
           area: 'lohegaon',
-          price: 7000,
+          price: 10000,
           rating: 4.5,
         },
       ],
